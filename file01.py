@@ -6,11 +6,16 @@ def main(data:str):
     Returns:
         list: return answer
     """
-
+    
 # Read data from file
-    return '['+data+']' 
+ 
+    return [data]
 f=open('txt_file/data01.txt').read()
+
+
 print(main(f))
+
+
 
 
 
