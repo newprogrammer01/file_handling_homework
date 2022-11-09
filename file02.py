@@ -6,5 +6,8 @@ def main(data:str):
     Returns:
         int: return answer
     """
-
+    return len(s)
 # Read data from file
+s=open('txt_file/data02.txt').read()
+
+print(main(s))
