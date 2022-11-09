@@ -8,3 +8,8 @@ def main(data:str):
     """
 
 # Read data from file
+    return [f]   
+f=open('txt_file/data01.txt').read()
+print(main(f))
+
+
