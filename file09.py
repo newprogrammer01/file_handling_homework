@@ -14,3 +14,4 @@ def main(data:str):
 # Read data from file
 f=open('txt_file/data09.txt').read()
 print(main(f))
+
