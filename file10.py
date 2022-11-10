@@ -6,11 +6,11 @@ def main(data:str):
     Returns:
         int: return answer
     """
-    list=[]
-    for i in data:
-        if i.isalpha():
-            list.append(str(i))
-    return min(list)
-# Read data from file
-f=open('txt_file/data10.txt').read().split("\n")
+    a=data.split('\n')
+    b=[]
+    for i in a:
+        b.append(len(i))
+    return max(b) 
+f=open('txt_file/data10.txt').read()
 print(main(f))
+
