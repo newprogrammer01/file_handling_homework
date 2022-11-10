@@ -10,10 +10,10 @@ def main(data:str):
     for i in data:
         if i.isalpha():
            l.append(i)
-
-       
-           
-    return l 
+        if i=="\n":
+            l.append('\n')
+    return l
 # Read data from file
 f=open("txt_file/data04.txt").read()
 print(main(f))
+
