@@ -12,7 +12,7 @@ def main(data:str):
     for i in data:
         if i.isdigit():
 
-         list.append(i)
+         list.append(int(i))
     return list
 f=open('txt_file/data01.txt').read()
 print(main(f))
